@@ -1,0 +1,3 @@
+sku_id,product_title,brand,category,price,mrp,availability,color,size,material
+SHOE001,Nike Running Shoes,Nike,Shoes,3999,4999,in_stock,Blue,10,Mesh
+BAG001,Puma Backpack,Puma,Bags,1999,2499,in_stock,Black,Medium,Polyester
