@@ -6,9 +6,22 @@ from app.routes.dashboard_routes import router as dashboard_router
 from app.routes.alert_routes import router as alert_router
 from app.routes.competitor_routes import router as competitor_router
 from app.routes.job_routes import router as job_router
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title = "Product Intelligence Dashboard API"
+    
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.on_event("startup")
