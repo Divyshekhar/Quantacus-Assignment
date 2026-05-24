@@ -1,0 +1,5 @@
+sku_id,product_title,brand,category,price,mrp,availability,color,size,material
+SHOE001,Nike Running Shoes,Nike,Shoes,3999,4999,in_stock,Blue,10,Mesh
+BAG001,Puma Backpack,Puma,Bags,1999,2499,in_stock,Black,Medium,Polyester
+WATCH001,Casio Digital Watch,Casio,Watches,2999,3499,in_stock,Black,Free Size,Resin
+TSHIRT001,Adidas Sports T Shirt,Adidas,Clothing,1499,1999,in_stock,White,L,Cotton
